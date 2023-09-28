@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useParams } from 'react-router-dom';
 
-function App() {
+import { Header } from './components/header';
+import { Menu } from './components/menu';
+import { RoutesContent } from './components/routes-content';
+import { RoutesContentMenu } from './components/routes-content-menu';
+import { Footer } from './components/footer';
+
+import './App.scss';
+
+export const App = () => {
+  const { route } = useParams();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {(route !== undefined) ?
+        <>
+          <Menu />
+          <RoutesContent />
+        </> :
+        <RoutesContentMenu />}
+      <Footer />
     </div>
   );
 }
-
-export default App;

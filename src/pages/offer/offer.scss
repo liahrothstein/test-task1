@@ -1,0 +1,45 @@
+div.offer {
+    margin-top: 47px;
+    width: 57.29vw;
+
+    @media (max-width: 768px) {
+        padding-left: 8.33vw;
+        width: 83.33vw;
+    }
+
+    @media (min-width: 1920px) and (max-width: 2560px) {
+        width: 825px;
+    }
+
+    div.offerHeader {
+        margin-bottom: 32px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    div.paragraph {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    div.mainText {
+        margin: 16px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    div.first {
+        padding-left: 2.08vw;
+    }
+
+    div.second {
+        padding-left: 4.17vw;
+    }
+
+    div.third {
+        padding-left: 6.25vw;
+    }
+}

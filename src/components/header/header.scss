@@ -1,0 +1,132 @@
+div.header {
+    display: flex;
+    margin: 32px 11.46vw 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #363636;
+
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        width: 1110px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    @media (max-width: 768px) {
+        justify-content: flex-start;
+        gap: 3.47vw;
+        align-items: center;
+        margin: 32px 0 0 8.68vw;
+    }
+
+    @media (min-width: 769px) and (max-width: 1023px) {
+        justify-content: flex-start;
+        gap: 3.47vw;
+        align-items: center;
+        margin: 32px 0 0 8.68vw;
+    }
+
+    @media (max-width: 320px) {
+        margin-left: 5.63vw;
+    }
+
+    @media (min-width: 321px) and (max-width: 767px) {
+        margin-left: 5.63vw;
+    }
+
+    button.burger {
+        display: none;
+        border: none;
+        background: none;
+        cursor: pointer;
+
+        @media (max-width: 768px) {
+            display: inline;
+        }
+    }
+
+    div.nameOfPage {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        padding-right: 22.22vw;
+
+        @media (min-width: 2560px) {
+            padding-right: 435px;
+        }
+
+        @media (max-width: 320px) {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        @media (min-width: 321px) and (max-width: 767px) {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    div.person {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        @media (min-width: 769px) and (max-width: 1023px) {
+            display: none;
+        }
+
+        div.hiName {
+            padding-right: 0.69vw;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    div.backgroundOfMenu {
+        width: 95vw;
+        position: absolute;
+        left: 0;
+        height: 200%;
+        display: none;
+    }
+
+    a.circleDevs {
+        @media (max-width: 1160px) {
+            display: none;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        @media (min-width: 769px) and (max-width: 1023px) {
+            display: none;
+        }
+
+        div.logo {
+            display: flex;
+            align-items: center;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+
+            @media (min-width: 769px) and (max-width: 1023px) {
+                display: none;
+            }
+
+            div.logoName {
+                margin-left: 0.56vw;
+                font-size: 21px;
+                color: #F83600;
+            }
+        }
+    }
+}
