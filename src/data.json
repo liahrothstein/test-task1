@@ -1,71 +1,71 @@
 [
     {
         "id": 0,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
-        "rating": 5,
-        "title": "Грокаем алгоритмы. Иллюстрированное ",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
+        "rating": 4,
+        "title": "Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих",
         "author": "Адитья Бхаргава",
         "issueYear": "2019"
     },
     {
         "id": 1,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
-        "rating": 5,
-        "title": "Грокаем алгоритмы. ",
-        "author": "Адитья Бхаргава",
-        "issueYear": "2019"
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
+        "rating": 4,
+        "title": "Программирование на JAVA",
+        "author": "Патрик Нимейер, Дэниэл Леук",
+        "issueYear": "2013"
     },
     {
         "id": 2,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 5,
-        "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
-        "author": "Адитья Бхаргава",
+        "title": "Как создать сайт. Комикс-путеводитель по HTML, CSS и WordPress",
+        "author": "Джи Ким, Нейт Купер",
         "issueYear": "2019"
     },
     {
         "id": 3,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 5,
-        "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
-        "author": "Адитья Бхаргава",
-        "issueYear": "2019"
+        "title": "HTML5 и CSS3. Разработка сайтов для любых браузеров и устройств",
+        "author": "Бен Фрейн",
+        "issueYear": "2014"
     },
     {
         "id": 4,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 3,
-        "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
-        "author": "Адитья Бхаргава, Патрик Нимейер",
-        "issueYear": "2019"
+        "title": "Adobe Flash. Создание аркад, головоломок и других игр с помощью ActionScript",
+        "author": "Гэри Розенцвейг",
+        "issueYear": "2009"
     },
     {
         "id": 5,
-        "image": "https://s541sas.storage.yandex.net/rdisk/32b9f15e83d0b142ce20f749847a1e4e9f555eb201c2703285bb5fc40d8c52e7/6515dbce/vPZssS4XFAViwr_-xXltRwI8yyGlzL3yFxAfUgwz1JyHUXqI5jYGLIAGVpGiL6c_IzV89qbyU02Q_C72MgQzvQ==?uid=198979277&filename=empty-image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=2399&hid=105695a3f87404fe4bf689a54591b1ee&media_type=image&tknv=v2&etag=609645cb56d18feb4c43df60990ad987&rtoken=HYwFVV4yQ3Vi&force_default=yes&ycrid=na-6e6925f00e3ac4f08caa93bcb6a71939-downloader10e&ts=60670c9340f80&s=c1d4c1d7b41940c4b7b9ca940ec8326dac0ec1eb170234eae63a4b63b7e6953f&pb=U2FsdGVkX1_7eA0MNyrb6-z3HubJ0FNkjJ9jRA6ovXfntlPFxRYPYxPC47_3tThkSSn-dWwcChBer8Uh5HRk6SUXnSXyxHD08Y7zqjdDi3A",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/empty-image.png",
         "rating": 3,
         "title": "Грокаем алгоритмы. Иллюстрированное ",
         "author": "Адитья Бхаргава",
-        "issueYear": "2019"
+        "issueYear": "2013"
     },
     {
         "id": 6,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 2,
-        "title": "Грокаем алгоритмы. ",
-        "author": "Адитья Бхаргава, Патрик Нимейер",
-        "issueYear": "2019"
+        "title": "HTML5. Разработка приложений для мобильных устройств",
+        "author": "Эстель Вейл",
+        "issueYear": "2015"
     },
     {
         "id": 7,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 1,
-        "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
-        "author": "Адитья Бхаргава, Патрик Нимейер",
-        "issueYear": "2019"
+        "title": "Быстро и легко создаем, программируем и раскручиваем",
+        "author": "Олег Поломошнов",
+        "issueYear": "2011"
     },
     {
         "id": 8,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": 1,
         "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
         "author": "Адитья Бхаргава",
@@ -73,15 +73,15 @@
     },
     {
         "id": 9,
-        "image": "https://s541sas.storage.yandex.net/rdisk/32b9f15e83d0b142ce20f749847a1e4e9f555eb201c2703285bb5fc40d8c52e7/6515dbce/vPZssS4XFAViwr_-xXltRwI8yyGlzL3yFxAfUgwz1JyHUXqI5jYGLIAGVpGiL6c_IzV89qbyU02Q_C72MgQzvQ==?uid=198979277&filename=empty-image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=2399&hid=105695a3f87404fe4bf689a54591b1ee&media_type=image&tknv=v2&etag=609645cb56d18feb4c43df60990ad987&rtoken=HYwFVV4yQ3Vi&force_default=yes&ycrid=na-6e6925f00e3ac4f08caa93bcb6a71939-downloader10e&ts=60670c9340f80&s=c1d4c1d7b41940c4b7b9ca940ec8326dac0ec1eb170234eae63a4b63b7e6953f&pb=U2FsdGVkX1_7eA0MNyrb6-z3HubJ0FNkjJ9jRA6ovXfntlPFxRYPYxPC47_3tThkSSn-dWwcChBer8Uh5HRk6SUXnSXyxHD08Y7zqjdDi3A",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/empty-image.png",
         "rating": null,
         "title": "Грокаем алгоритмы. Иллюстрированное ",
-        "author": "Адитья Бхаргава, Патрик Нимейер",
-        "issueYear": "2019"
+        "author": "Борис Пахомов",
+        "issueYear": "2014"
     },
     {
         "id": 10,
-        "image": "https://s114vlx.storage.yandex.net/rdisk/900a3d6079dfebc06c74873811f35e427afcf6816cefed93415671ae213c2188/6515dc12/vPZssS4XFAViwr_-xXltR5h3BlQna2uZTA1AJXByfxedpBfMx3108Q8h5gfCuH1qonlHbq-PwVYsGUO7KWXY_w==?uid=198979277&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=198979277&fsize=38168&hid=7a01501eaa867c80a64009542aac2659&media_type=image&tknv=v2&etag=8f44f63572f4392a36b968c9d887488e&rtoken=bGJbIkMYivTv&force_default=yes&ycrid=na-0bd9c2a1a6b9310ca770c6aff1bdd380-downloader10e&ts=60670cd41a880&s=9641e4013127e0738d9ba311e7f741b8799cefa879eb3cabe88d2fb744a49869&pb=U2FsdGVkX1_F9WziozUNM_uyvQT2I6f4yxnB1G_C9NCH9OQamWgTYgAT92I7v6zlTg1ZFS20Vn4gUIitbyOMwjPusPLwyRM04qFAvJkub_w",
+        "image": "https://raw.githubusercontent.com/liahrothstein/localStorage/main/image.png",
         "rating": null,
         "title": "Грокаем алгоритмы. Иллюстрированное пособие для програ...",
         "author": "Адитья Бхаргава",

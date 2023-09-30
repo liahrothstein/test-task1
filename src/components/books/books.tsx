@@ -2,21 +2,43 @@ import data from '../../data.json';
 
 import { RatingStars } from '../rating-stars';
 
+import { View } from '../../types/view';
+
 import './books.scss';
 
-export const Books = () => {
+interface BooksProps {
+    view: View
+}
+
+export const Books = ({ view }: BooksProps) => {
 
     return (
-        <div className="books">
-            {data.map((e) => (
-                <div className="book" key={e.id}>
-                    <img src={e.image} alt="bookImage" />
-                    <RatingStars count={e.rating} />
-                    <div className="bookTitle">{e.title}</div>
-                    <div className="bookAuthorAndIssueYear">{`${e.author}, ${e.issueYear}`}</div>
-                    <button type="button">Забронировать</button>
-                </div>
-            ))}
+        <div className={(view === View.Blocks) ? "blocksBooks" : "rowsBooks"}>
+            {(view === View.Blocks) ?
+                (data.map((e) => (
+                    <div className="book" key={e.id}>
+                        <img src={e.image} alt="bookImage" />
+                        <RatingStars count={e.rating} />
+                        <div className="bookTitle">{e.title}</div>
+                        <div className="bookAuthorAndIssueYear">{`${e.author}, ${e.issueYear}`}</div>
+                        <button type="button">Забронировать</button>
+                    </div>
+                ))) : (data.map((e) => (
+                    <div className="book" key={e.id}>
+                        <div className="imgAndOther">
+                            <img src={e.image} alt="bookImage" />
+                            <div className="other">
+                                <div className="bookTitle">{e.title}</div>
+                                <div className="bookAuthorAndIssueYear">{`${e.author}, ${e.issueYear}`}</div>
+                                <div className="ratingAndButton">
+                                    <RatingStars count={e.rating} />
+                                    <button type="button">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )))
+            }
         </div>
     )
 }

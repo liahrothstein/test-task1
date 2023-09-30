@@ -9,8 +9,12 @@ import rowsButton from '../../assets/images/lines-button.png';
 
 import './filter.scss';
 
-export const Filter = () => {
-    const [view, setView] = useState<View>(View.Blocks);
+interface FilterProps {
+    view: View,
+    setView: (view: View) => void
+}
+
+export const Filter = ({ view, setView }: FilterProps) => {
     const [ratingSort, setRatingSort] = useState<boolean>(false);
 
     const blocksView = () => {
