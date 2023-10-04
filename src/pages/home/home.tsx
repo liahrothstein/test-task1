@@ -9,10 +9,15 @@ import './home.scss';
 
 export const Home = () => {
     const [view, setView] = useState<View>(View.Blocks);
+    const [ratingSort, setRatingSort] = useState<boolean>(false);
 
     return (
         <div className="homePage">
-            <Filter view={view} setView={setView} />
+            <Filter
+                view={view}
+                setView={setView}
+                ratingSort={ratingSort}
+                setRatingSort={setRatingSort} />
             <Books view={view} />
         </div>
     )

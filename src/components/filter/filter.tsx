@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 
 import { View } from '../../types/view';
+import { ratingOff, ratingOn } from '../../redux/rating-slice';
 
 import search from '../../assets/images/search.png';
 import filterButton from '../../assets/images/filter-button.png';
@@ -11,11 +12,13 @@ import './filter.scss';
 
 interface FilterProps {
     view: View,
-    setView: (view: View) => void
+    setView: (view: View) => void,
+    ratingSort: boolean,
+    setRatingSort: (ratingSort: boolean) => void
 }
 
-export const Filter = ({ view, setView }: FilterProps) => {
-    const [ratingSort, setRatingSort] = useState<boolean>(false);
+export const Filter = ({ view, setView, ratingSort, setRatingSort }: FilterProps) => {
+    const dispatch = useDispatch();
 
     const blocksView = () => {
         setView(View.Blocks)
@@ -23,8 +26,14 @@ export const Filter = ({ view, setView }: FilterProps) => {
     const rowsView = () => {
         setView(View.Rows)
     }
-    const ratingSortSwitch = () => {
-        setRatingSort(!ratingSort)
+    const ratingSortSwitch = (): void => {
+        setRatingSort(!ratingSort);
+
+        if (ratingSort) {
+            dispatch(ratingOn())
+        } else {
+            dispatch(ratingOff())
+        }
     }
 
     return (

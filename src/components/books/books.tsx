@@ -1,7 +1,8 @@
-import data from '../../data.json';
+import { useSelector } from 'react-redux';
 
 import { RatingStars } from '../rating-stars';
 
+import { Book } from '../../types/book';
 import { View } from '../../types/view';
 
 import './books.scss';
@@ -11,6 +12,7 @@ interface BooksProps {
 }
 
 export const Books = ({ view }: BooksProps) => {
+    const data: Book[] = useSelector((state: any) => state.rating);
 
     return (
         <div className={(view === View.Blocks) ? "blocksBooks" : "rowsBooks"}>
