@@ -8,11 +8,15 @@ import { View } from '../../types/view';
 import './books.scss';
 
 interface BooksProps {
-    view: View
+    view: View,
+    search: string
 }
 
-export const Books = ({ view }: BooksProps) => {
-    const data: Book[] = useSelector((state: any) => state.rating);
+export const Books = ({ view, search }: BooksProps) => {
+    const ratingData: Book[] = useSelector((state: any) => state.rating);
+    const searchData: Book[] = useSelector((state: any) => state.search);
+
+    const data = ((!search) ? ratingData : searchData);
 
     return (
         <div className={(view === View.Blocks) ? "blocksBooks" : "rowsBooks"}>

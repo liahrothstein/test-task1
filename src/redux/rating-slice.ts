@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 import { Book } from '../types/book';
 
-import data from '../data.json'
+import data from '../data.json';
 
 const initialState: Book[] = data;
 

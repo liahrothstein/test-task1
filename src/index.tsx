@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { App } from './App';
 
 import reportWebVitals from './reportWebVitals';
-import { store } from './redux/store';
+import { store } from './redux';
 
 import './index.scss';
 

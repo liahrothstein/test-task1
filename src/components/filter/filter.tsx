@@ -1,9 +1,11 @@
+import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { View } from '../../types/view';
 import { ratingOff, ratingOn } from '../../redux/rating-slice';
+import { filterSearch } from '../../redux';
 
-import search from '../../assets/images/search.png';
+import searchIcon from '../../assets/images/search.png';
 import filterButton from '../../assets/images/filter-button.png';
 import blocksButton from '../../assets/images/blocks-button.png';
 import rowsButton from '../../assets/images/lines-button.png';
@@ -14,10 +16,12 @@ interface FilterProps {
     view: View,
     setView: (view: View) => void,
     ratingSort: boolean,
-    setRatingSort: (ratingSort: boolean) => void
+    setRatingSort: (ratingSort: boolean) => void,
+    search: string,
+    setSearch: (search: string) => void
 }
 
-export const Filter = ({ view, setView, ratingSort, setRatingSort }: FilterProps) => {
+export const Filter = ({ view, setView, ratingSort, setRatingSort, search, setSearch }: FilterProps) => {
     const dispatch = useDispatch();
 
     const blocksView = () => {
@@ -36,12 +40,24 @@ export const Filter = ({ view, setView, ratingSort, setRatingSort }: FilterProps
         }
     }
 
+    useEffect(() => {
+        const debounce = setTimeout(() => {
+            dispatch(filterSearch(search));
+        }, 1500)
+
+        return () => (clearTimeout(debounce))
+    }, [search]);
+
     return (
         <div className="filter">
             <div className="searchWithRating">
                 <div className="search">
-                    <img src={search} alt="" />
-                    <input type="text" placeholder='Поиск книги или автора…' />
+                    <img src={searchIcon} alt="" />
+                    <input
+                        type="text"
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                        placeholder='Поиск книги или автора…' />
                 </div>
                 <div className={(ratingSort) ? 'On rating' : 'Off rating'}>
                     <button type="button" onClick={ratingSortSwitch}>
