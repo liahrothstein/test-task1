@@ -10,7 +10,7 @@ export const Header = () => {
 
     return (
         <div className="header">
-            <Link to='/' className="circleDevs">
+            <Link to='/home' className="circleDevs">
                 <div className="logo">
                     <div className="logo"><img src={logo} alt="logo" /></div>
                     <div className="logoName">CircleDevs</div>

@@ -10,9 +10,9 @@ export const Menu = () => {
     return (
         <div className="menu">
             <div className="tab1">
-                <div className={(pathname === '/') ? "active" : ''}>
+                <div className={(pathname === '/home') ? "active" : ''}>
                     <div className="linkAndArrow">
-                        <Link to='/'>Витрина книг</Link>
+                        <Link to='/home'>Витрина книг</Link>
                         <button type="button" className='arrowBtn'>
                             <div className="arrowBtn"><img src={arrow} alt="arrow" /></div>
                         </button>

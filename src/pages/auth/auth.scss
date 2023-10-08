@@ -1,0 +1,141 @@
+div.authPage {
+    height: 100vh;
+    background: var(--button-hover, linear-gradient(232deg, #F83600 -53.35%, #F9D423 297.76%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div.logoModalWindow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 59px;
+
+        div.logo {
+            color: var(--main-white, #FFF);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+        }
+
+        div.modalWindow {
+            width: 528px;
+            height: 466px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 48px 56px;
+            border-radius: 16px;
+            background: #FFF;
+            box-sizing: border-box;
+
+            div.modalHeader {
+                color: var(--main-dark, #363636);
+                font-family: Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0.1px;
+            }
+
+            form {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    height: 56px;
+                    padding: 19px 12px;
+                    background: var(--grey-black-5, #F9F9FA);
+                    color: var(--main-dark, #363636);
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.1px;
+                    box-sizing: border-box;
+                    border: none;
+
+                    &:focus-visible {
+                        outline: none;
+                    }
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    position: absolute;
+                    right: 16px;
+                    top: 94px;
+                    cursor: pointer;
+                }
+
+                label {
+                    height: 20px;
+                    border-top: 1px solid #BFC4C9;
+                }
+
+                a {
+                    padding-left: 12px;
+                    color: var(--grey-black-40, #A7A7A7);
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0.2px;
+                    text-decoration: none;
+                }
+
+                button {
+                    margin-top: 32px;
+                    height: 52px;
+                    border-radius: 30px;
+                    background: var(--button-hover, linear-gradient(232deg, #F83600 -53.35%, #F9D423 297.76%));
+                    color: var(--main-white, #FFF);
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%;
+                    letter-spacing: 0.2px;
+                    text-transform: uppercase;
+                }
+            }
+
+            div.toRegistration {
+                display: flex;
+                align-items: center;
+                gap: 21px;
+                color: var(--grey-black-70, #727272);
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+
+                a {
+                    color: var(--main-dark, #363636);
+                    text-align: center;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 18px;
+                    letter-spacing: 0.2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

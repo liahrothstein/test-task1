@@ -43,7 +43,7 @@ export const Filter = ({ view, setView, ratingSort, setRatingSort, search, setSe
     useEffect(() => {
         const debounce = setTimeout(() => {
             dispatch(filterSearch(search));
-        }, 1500)
+        }, 1000)
 
         return () => (clearTimeout(debounce))
     }, [search]);
