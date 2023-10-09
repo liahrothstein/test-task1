@@ -1,0 +1,14 @@
+div.stars {
+    display: flex;
+    gap: 6px;
+}
+
+div.noStars {
+    color: var(--grey-black-40, #A7A7A7);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}

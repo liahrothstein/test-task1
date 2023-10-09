@@ -1,0 +1,128 @@
+div.blocksBooks {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21.5px;
+
+    div.book {
+        width: 190px;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px 0px rgba(191, 196, 201, 0.24), 0px 3px 4px 0px rgba(191, 196, 201, 0.18), 0px 2px 4px 0px rgba(191, 196, 201, 0.20);
+
+        img {
+            margin-top: 8px;
+        }
+
+        div.bookTitle {
+            padding: 0 8px;
+            color: var(--main-dark, #363636);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+        }
+
+        div.bookAuthorAndIssueYear {
+            padding: 0 8px;
+            color: var(--grey-black-70, #727272);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+        }
+
+        button {
+            width: 166px;
+            height: 40px;
+            margin-bottom: 16px;
+            border-radius: 20px;
+            background: var(--button-hover, linear-gradient(232deg, #F83600 -53.35%, #F9D423 297.76%));
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+            color: var(--main-white, #FFF);
+        }
+    }
+}
+
+div.rowsBooks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+
+    div.book {
+        padding: 16px;
+        border-radius: 12px;
+        box-shadow: 0px 1px 5px 0px rgba(191, 196, 201, 0.24), 0px 3px 4px 0px rgba(191, 196, 201, 0.18), 0px 2px 4px 0px rgba(191, 196, 201, 0.20);
+
+        div.imgAndOther {
+            display: flex;
+            gap: 16px;
+
+            img[alt="bookImage"] {
+                height: 170px;
+            }
+
+            div.other {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+
+                div.bookTitle {
+                    font-family: Montserrat;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                }
+
+                div.bookAuthorAndIssueYear {
+                    color: var(--grey-black-70, #727272);
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+
+                div.ratingAndButton {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 166px;
+                        height: 40px;
+                        border-radius: 20px;
+                        background: var(--button-hover, linear-gradient(232deg, #F83600 -53.35%, #F9D423 297.76%));
+                        font-family: Montserrat;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 18px;
+                        letter-spacing: 0.2px;
+                        text-transform: uppercase;
+                        color: var(--main-white, #FFF);
+                    }
+                }
+            }
+        }
+    }
+}

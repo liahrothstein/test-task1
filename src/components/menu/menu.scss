@@ -1,0 +1,77 @@
+div.menu {
+    margin-right: 30px;
+    width: 255px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+    div.tab1 {
+        div.categories {
+            display: none;
+
+            div.allBooks {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+                -webkit-background-clip: text;
+                color: #363636;
+                background-clip: text;
+                cursor: pointer;
+            }
+
+            div.books button {
+                background: none;
+                border: none;
+
+                &.active div.allBooks {
+                    color: #F83600;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+
+                div.allBooks {
+                    text-align: start;
+                }
+            }
+        }
+
+        button.arrowBtn {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+
+        div.linkAndArrow {
+            display: flex;
+            justify-content: space-between;
+            width: 243px;
+        }
+    }
+
+    div.tab1,
+    div.tab2,
+    div.tab3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        cursor: pointer;
+
+        div.active {
+            background: var(--button-hover, linear-gradient(232deg, #F83600 -53.35%, #F9D423 297.76%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        a {
+            text-decoration: none;
+            color: #363636;
+        }
+    }
+
+    div.tab2 {
+        margin: 42px 0;
+    }
+}
