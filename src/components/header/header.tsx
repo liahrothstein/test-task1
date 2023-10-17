@@ -7,6 +7,8 @@ import logo from '../../assets/images/logo.svg';
 import './header.scss';
 
 export const Header = () => {
+    const user: any = localStorage.getItem('user');
+    const isUser = JSON.parse(user);
 
     return (
         <div className="header">
@@ -22,7 +24,7 @@ export const Header = () => {
             <div className="nameOfPage">Библиотека</div>
             <div className="person">
                 <div className="hiName">
-                    Привет, Азиз!
+                    {`Привет, ${isUser.name}!`}
                 </div>
                 <div className="avatar"><img src={avatar} alt="avatar" /></div>
             </div>
